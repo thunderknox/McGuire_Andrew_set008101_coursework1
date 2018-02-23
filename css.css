@@ -30,13 +30,12 @@ body{
 	 ul {
 	 list-style-type: none; 
 	 margin: 20px 150px;
-	 margin-left:510px;
-	 margin-right:510px;
-	 margin-bottom: 200px;
+	 margin-left:300px;
+	 margin-right:300px;
+	 
 	
 	 padding-left: 140px;
-	 
-	 
+	  
 	 overflow: hidden;
 	 background-color:0000FF;
 	 }
@@ -50,18 +49,20 @@ body{
 	  li a {
 	  display: block; 
 	  color: white; 
-	  font-size: 1.8em;
+	  font-size: 1.9em;
 	  text-align: center; 
 	  padding: 14px 16px;
 	  text-decoration: none; 
-	  padding-right: 131px;
+	  padding-left:40px;
+	  font-family: autumn;
 	  
 	 }
 	  	p {
 	color: red;
-	margin-left:510px;
-	margin-right:510px;
+	margin-left:300px;
+	margin-right:300px;
 	font-size: 25px;
+	font-family: Autumn;
 	}
    
 	border{
@@ -95,6 +96,8 @@ body{
   
 }
 
+
+}
 
 }	
 	
