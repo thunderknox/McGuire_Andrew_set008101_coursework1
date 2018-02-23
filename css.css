@@ -4,13 +4,13 @@ body{
 	 
 	 font-family: Autumn;
 	 background-color: black;
-	 font-color: red;
+	 
 	 
 	 
 	 }
 	 
 	 
-	 h1 {
+	 h1{
 	 color: red;
 	 
 	 }
@@ -29,11 +29,11 @@ body{
 	 
 	 ul {
 	 list-style-type: none; 
-	 margin: 20px 100px;
+	 margin: 20px 150px;
 	 margin-left:510px;
 	 margin-right:510px;
-	 width: 50px
-	 padding: 100px;
+	 margin-bottom: 200px;
+	
 	 padding-left: 140px;
 	 
 	 
@@ -56,44 +56,18 @@ body{
 	  text-decoration: none; 
 	  padding-right: 131px;
 	  
-	  
-	  li a:hover{
-	  background-color: lightblue;
-	  
-	 h1 {
-	 color: red;
 	 }
-	 
-	 h2 {
-	 color: red;
-	 }
-	 
-	 h3 {
-	 color: red;
-	 }
-	 
-	 
-	
-	div.container { 
-	
-	}
-	
-	div.container2 {
-	
-	margin-left: 200px; 
-	
-	}
-	
-	p {
+	  	p {
 	color: red;
+	margin-left:510px;
+	margin-right:510px;
+	font-size: 25px;
 	}
    
 	border{
 	color: red;
 	}
-	.img {
-	padding: 50px;
-	}
+	
 	
 	.zoom {
 	padding: 50px;
@@ -102,13 +76,13 @@ body{
     width: 200px;
     height: 200px;
     margin: 0 auto;
-	 
+	}
 	 .zoom:hover{
 	 transform: scale(1.6); 
 	 }
 	 
 	 .brighten img {
-  -webkit-filter: brightness(-65%);
+  -webkit-filter: brightness(70%);
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -117,10 +91,12 @@ body{
 }
  
 .brighten img:hover {
-  -webkit-filter: brightness(20%);
+  -webkit-filter: brightness(150%);
+  
 }
+
 
 }	
 	
-	
+	  
 
