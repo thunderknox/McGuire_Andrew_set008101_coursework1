@@ -3,8 +3,9 @@
 body{
 	 
 	 font-family: Impact;
-	 background-color: grey;
-	 font-color: red;
+	 background-color: black;
+	 color: green;
+	 
 	 
 	 
 	 }
@@ -51,7 +52,7 @@ body{
 	  li a {
 	  display: block; 
 	  color: white; 
-	  font-size: 1.9em;
+	  font-size: 1.5em;
 	  text-align: center; 
 	  padding: 14px 16px;
 	  text-decoration: none; 
@@ -100,28 +101,29 @@ body{
 
 textarea{
 	border:1px solid #99999;
-	width: 90%;
+	width: 50%;
 	margin: 5px 0; 
+	padding-right:200px;
+	margin-left: 300px;
 	background-color: white;
 }
 
-.output{
-	color: red;
-	font-size: 30px; 
-	
-}
 
-.output_area{
+p2 {
 	padding-left:300px;
+}	
+
+
+
 	
 }
-.button_move{
+button_move{
 	margin-left: 300px;
 }
 
 button {
     
-	margin-left:500px;
+	margin-left:600px;
 	
 }
 
