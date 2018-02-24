@@ -12,6 +12,8 @@ body{
 	 
 	 h1{
 	 color: red;
+	 text-align:center;
+	 font-size: 45px
 	 
 	 }
 	 
@@ -62,7 +64,7 @@ body{
 	margin-left:300px;
 	margin-right:300px;
 	font-size: 20px;
-	font-family: Autumn;
+	font-family: Impact;
 	}
    
 	border{
@@ -96,7 +98,11 @@ body{
   
 }
 
-
+textarea{
+	border:1px solid #99999;
+	width: 90%;
+	margin: 5px 0; 
+}
 }
 
 }	
