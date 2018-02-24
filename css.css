@@ -4,7 +4,7 @@ body{
 	 
 	 font-family: Impact;
 	 background-color: grey;
-	 
+	 font-color: red;
 	 
 	 
 	 }
@@ -104,7 +104,21 @@ textarea{
 	margin: 5px 0; 
 	background-color: white;
 }
+
+.output{
+	color: red;
+	font-size: 30px; 
+	
 }
+
+.output_area{
+	padding-left:300px;
+	
+}
+.button_move{
+	margin-left: 300px;
+}
+
 
 }	
 	
