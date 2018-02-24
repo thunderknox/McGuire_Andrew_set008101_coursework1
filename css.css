@@ -3,7 +3,7 @@
 body{
 	 
 	 font-family: Impact;
-	 background-color: black;
+	 background-color: grey;
 	 
 	 
 	 
@@ -102,6 +102,7 @@ textarea{
 	border:1px solid #99999;
 	width: 90%;
 	margin: 5px 0; 
+	background-color: white;
 }
 }
 
