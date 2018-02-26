@@ -3,7 +3,7 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="css.css">
-<script type="text/javascript" src="sound-mouseover.js"></script>
+
 
 
 <title> OP-Cipher </title>
@@ -45,7 +45,7 @@ Hover your mouse over her picture to hear what she has to say. </p>
 <br>
 <div style="padding-right:300px">
 <div class="brighten pic">
-<img src="The_Bad.jpg" height="200px" width="270px" alt="The Bad" style="border:1px solid silver" align="right">
+<a href="Index.html" onmouseover="playclip1();"><img src="The_Bad.jpg" height="200px" width="270px" alt="The Bad" style="border:1px solid silver" align="right">
 <p style="font-family: Impact;"> To the right is the Death Legion, obsessed with power and unlocking new technology these soldiers have executed numerous citizens for small petty crimes.<br>
 The Death Legion are willing to Bargain with you in exchange for the crypted data.<br>
 Hover over the Death Legion Image to hear what they have to say. </p>
@@ -61,10 +61,29 @@ Hover over the Death Legion Image to hear what they have to say. </p>
 
 
 <audio>
-<source src="#">
-<source src="#">
+<source src="death_legion_sound.mp3">
+<source src="death_legion_sound.ogg">
 </audio>
 <div id="sounddiv"><bgsound id="sound"></div>
+  
+  <script type="text/javascript" src="sound-mouseover.js">
+  
+  function playclip1() {
+if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
+if (document.all)
+ {
+  document.all.sound.src = "death_legion_sound.mp3";
+ }
+}
+
+else {
+{
+var audio = document.getElementById("death_legion_sound"); audio.play(); 
+audio.play();
+          </script>
+}
+}
+}
 <br>
 <br>
 <br>
