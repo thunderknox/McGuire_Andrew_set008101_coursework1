@@ -2,12 +2,13 @@
 <head>
 
 <link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="css2.css">
 
 
 
 <title> OP-Cipher </title>
 
-<div style="padding-left:500px">
+<div style="padding-left:10px">
 <img class="img-responsive center-block" src="logoalphad.png" alt="OP-Cipher">
 </div>
 
@@ -19,7 +20,7 @@
 <ul>
   <li><a class="active" href="Index.html">Home</a></li>
   <li><a href="Design.html">Design</a></li>
-  <li><a href="ROT13Crypt.html">Op-Cipher</a></li>
+  <li><a href="ROT13Crypt.html">ROT13-Crypt</a></li>
   <li><a href="CaeserCrypt.html">CaeserCrypt</a></li>
   
   
@@ -29,15 +30,15 @@
 <br>
 <br>
 <br>
-<h1> OP-Cipher </h1>
-<br>
-<br>
-<br>
-
-<p> Welcome to the De-Cryption page, on this page you will be able to De-crypt your message and pass to who you feel deserves the message, please use the input box below to input your message, if you wish to crypt a message there is a input box below the De-cryption one!</p>
-
-
 <h1> ROT-13 Encoder </h1>
+<br>
+<br>
+<br>
+<br>
+<p> Welcome to the Cryption page, on this page you will be able to crypt your message and pass to who you feel deserves the message, please use the input box below to input your message.</p>
+
+
+
 
 	
 	
@@ -61,9 +62,9 @@ Crypt your code!</button>
 
  <div id="output_area">
  <br>
-<div id="p2"> <p>This is your encoded message :<div id="output"></div></p>
+ <p>This is your encoded message :<div id="output" align="center"></div></p>
 	</div>
-</div>
+
 	
 <script type="text/javascript">
 
@@ -92,51 +93,12 @@ cypher_text.push(letter);
 
 
 </script>
-	
+	<div style="padding-left:200px";>
+<footer> <p style="font-family: Impact;"> Copyright: Andrew McGuire 2018 </p></footer>
+</div>
 
-<h1> Caeser Encoder </h1>
 
-	
-	
-<div id="input_area">
- <textarea rows ="1" cols ="50" autofocus id="message"> Crypt your message here!</textarea> 
- <br>
- <div id="button_move">
-<button id="encode_button" type="button" onclick="newcrypt()">
-Crypt your code!</button>
- </div>
- </div>
 
- <div id="output_area">
- <br>
- <table>
-<div id="p2"> <p>This is your encoded message :<div id="output"></div></p>
-	</div>
-</div>	
-	</table>
-	<script type="text/javascript">
-	function newcrypt()
-{
- var plain_text = document.getElementById("message").value;
- var cypher_text = [];
- var alphabet =['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-
-for(var idx =0; idx<plain_text.length; idx ++)
-{
-input = alphabet.indexOf(plain_text[idx]);
- if(input == -1)
-{
-cypher_text.push(plain_text[idx]);
-}
- else{
-var coded = (input +13)%53;
-var letter = alphabet[coded];
-cypher_text.push(letter);
-}
-}
- document.getElementById("output").innerHTML = cypher_text.join("");
-}
-</script>
 	</body>
 </html>
 

@@ -21,7 +21,8 @@ body{
 	 h2 {
 	 
 	 color: red;
-	 margin-left: 300px; 
+	  
+	 text-align:center;
 	}
 	
 	h3 {
@@ -52,11 +53,11 @@ body{
 	  li a {
 	  display: block; 
 	  color: white; 
-	  font-size: 1.5em;
+	  font-size: 1.3em;
 	  text-align: center; 
 	  padding: 14px 16px;
 	  text-decoration: none; 
-	  padding-left:40px;
+	  padding-left:20px;
 	  font-family: Impact;
 	  
 	 }
@@ -66,11 +67,10 @@ body{
 	margin-right:300px;
 	font-size: 20px;
 	font-family: Impact;
+	text-align: justify;
 	}
    
-	border{
-	color: red;
-	}
+	
 	
 	
 	.zoom {
@@ -103,8 +103,9 @@ textarea{
 	border:1px solid #99999;
 	width: 50%;
 	margin: 5px 0; 
-	padding-right:200px;
-	margin-left: 300px;
+	padding-right:300px;
+	margin-left: 100px;
+	margin-right: 100px;
 	background-color: white;
 }
 
@@ -117,13 +118,11 @@ p2 {
 
 	
 }
-button_move{
-	margin-left: 300px;
-}
+
 
 button {
     
-	margin-left:600px;
+	margin-left: 300px;
 	
 }
 
